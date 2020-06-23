@@ -2,7 +2,6 @@
   "store.home": {
     "blocks": [
       "rich-text",
-      "info-card",
       "info-card#button-right",
       "info-card#button-left"
     ]
@@ -10,22 +9,10 @@
   "rich-text": {
     "props": {
       "text": "**Hello, World!**",
-      "textPosition": "RIGHT"
+      "textPosition": "CENTER"
     }
   },
-  "info-card": {
-    "props": {
-    "isFullModeStyle": false,
-    "textPosition": "right",
-    "imageUrl": "https://observatoriodocinema.uol.com.br/quadrinhos/2020/06/marvel-enfim-responde-um-dos-maiores-misterios-do-homem-aranha",
-    "headline": "Test",
-    "subhead": "apenas para passar",
-    "callToActionMode": "button",
-    "callToActionText": "Explore",
-    "callToActionUrl": "/sale/d",
-    "textAlignment": "center"
-    }
-  },
+
   "info-card#button-right": {
     "props": {
     "isFullModeStyle": false,
@@ -44,7 +31,7 @@
     "isFullModeStyle": false,
     "textPosition": "left",
     "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-cinza-min.png",
-    "headline": "Shinnig Chrome",
+    "headline": "Shining Chrome",
     "subhead": "Give your kitchen a cool style adding warm metallic finishes.<br>Available until January 2020.",
     "callToActionMode": "",
     "callToActionText": "Go to Collection",
