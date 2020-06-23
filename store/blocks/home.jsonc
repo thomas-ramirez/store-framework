@@ -2,6 +2,7 @@
   "store.home": {
     "blocks": [
       "rich-text",
+      "info-card",
       "info-card#button-right",
       "info-card#button-left"
     ]
@@ -10,6 +11,19 @@
     "props": {
       "text": "**Hello, World!**",
       "textPosition": "RIGHT"
+    }
+  },
+  "info-card": {
+    "props": {
+    "isFullModeStyle": false,
+    "textPosition": "right",
+    "imageUrl": "https://observatoriodocinema.uol.com.br/quadrinhos/2020/06/marvel-enfim-responde-um-dos-maiores-misterios-do-homem-aranha",
+    "headline": "Test",
+    "subhead": "apenas para passar",
+    "callToActionMode": "button",
+    "callToActionText": "Explore",
+    "callToActionUrl": "/sale/d",
+    "textAlignment": "center"
     }
   },
   "info-card#button-right": {
