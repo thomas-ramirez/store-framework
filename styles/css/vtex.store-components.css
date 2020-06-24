@@ -9,6 +9,8 @@
     margin: 0 auto;
 }
 
+
+
 .infoCardCallActionContainer :global(.vtex-button) {
     color: white;
     background-color: gray;
