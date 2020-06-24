@@ -5,7 +5,8 @@
       "info-card#button-left",
       "flex-layout.row",
       "flex-layout.col",
-      "rich-text#deletar"
+      "rich-text#deletar",
+      "shelf"
     ]
   },
 
@@ -80,5 +81,24 @@
         "maxWidth": "100%"
       }
     }
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
