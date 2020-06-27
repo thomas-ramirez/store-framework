@@ -6,7 +6,8 @@
       "flex-layout.row",
       "flex-layout.col",
       "rich-text#deletar",
-      "shelf"
+      "shelf",
+      "slider-layout#home"
     ]
   },
 
