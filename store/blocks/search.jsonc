@@ -1,5 +1,26 @@
 {
   "store.search": {
-    "blocks": []
-  }
+    "blocks": [
+      "search-result-layout"
+    ]
+  },
+
+  "search-result-layout":{
+    "children":[
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  } 
+
+
+
+
+
+
+
+
+
+
+  
 }
