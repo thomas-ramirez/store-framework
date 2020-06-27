@@ -10,8 +10,7 @@
       "slider-layout#home",
       "responsive-layout",
       "responsive-layout.desktop#desktop",
-      "responsive-layout.mobile#mobile",
-    
+      "responsive-layout.mobile#mobile"
     ]
   },
 
@@ -134,24 +133,5 @@
         "maxWidth": "100%"
       }
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
