@@ -1,19 +1,14 @@
 {
   "store.search": {
-    "blocks": ["search-result-layout"],
-    "props":{
-      "context":{
-        "skuFilter": "FIRST_AVAILABLE",
-        "simulationBehavior":"skip"
-      }
-    }
-  },
+    "blocks": ["search-result-layout"]
+    },
 
   "search-result-layout":{
     "blocks":[
       "search-result-layout.desktop",
       "search-result-layout.mobile",
-      "search-not-found-layout"
+      "search-not-found-layout",
+      "product-summary.shelf"
     ]
   }, 
 
@@ -21,19 +16,39 @@
     "children": [
       "breadcrumb.search",
       "search-title.v2",
-      "total-products.v2",
-      "order-by.v2",
-      "search-fetch-previous",
-      "search-content",
-      "filter-navigator.v3",
+      "flex-layout.row#top",
+      "search-fetch-previous",    
+      "flex-layout.row#result",
       "search-fetch-more"
-    ],
-    "props": {
-      "preventRouteChange": true,
-      "showFacetQuantity": false
+    ]
+  },
+
+  "flex-layout.row#top":{
+    "children":[
+      "total-products.v2",
+      "order-by.v2"
+    ]
+  },
+
+  "flex-layout.row#results":{
+    "children":[
+      "flex-layout.col#filter",
+      "flex-layout.col#search",
+      "search-content",
+      "filter-navigator.v3"
+    ]
+  },
+
+  "flex-layout.col#filter":{
+    "props":{
+      "width": 20
+    }
+  },
+
+  "flex-layout.col#search":{
+    "props":{
+      "width": 20
     }
   }
-
-
   
 }
