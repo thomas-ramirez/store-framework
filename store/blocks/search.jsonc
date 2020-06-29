@@ -7,8 +7,7 @@
     "blocks":[
       "search-result-layout.desktop",
       "search-result-layout.mobile",
-      "search-not-found-layout",
-      "product-summary.shelf"
+      "search-not-found-layout"
     ]
   }, 
 
@@ -18,7 +17,7 @@
       "search-title.v2",
       "flex-layout.row#top",
       "search-fetch-previous",    
-      "flex-layout.row#result",
+      "flex-layout.row#results",
       "search-fetch-more"
     ]
   },
@@ -39,6 +38,14 @@
     ]
   },
 
+  "search-content":{
+    "blocks":["gallery", "not-found"]
+    },
+
+    "gallery":{
+      "blocks":["product-summary.shelf"]
+    },
+    
   "flex-layout.col#filter":{
     "props":{
       "width": 20
