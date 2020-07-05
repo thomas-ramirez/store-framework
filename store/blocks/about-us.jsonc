@@ -17,19 +17,19 @@
 
     "tab-list#home":{
       "children":[
-        "tab-list#home1",
-        "tab-list#home2"
+        "tab-list.item#home1",
+        "tab-list.item#home2"
       ]
     },
 
     "tab-content#home":{
       "children":[
-        "tab-content#home1",
-        "tab-content#home2"
+        "tab-content.item#home1",
+        "tab-content.item#home2"
       ]
     },
 
-    "tab-list#home1":{
+    "tab-list.item#home1":{
       "props": {
         "tabId": "majorAppliances",
         "label": "Major Appliances",
@@ -37,7 +37,7 @@
       }
     },
 
-    "tab-list#home2":{
+    "tab-list.item#home2":{
       "props": {
         "tabId": "eletronics",
         "label": "Electronics",
@@ -45,7 +45,7 @@
       }
     },
 
-    "tab-content#home1":{
+    "tab-content.item#home1":{
       "children":["rich-text#home1"],
       "props":{
         "tabId": "majorAppliances"
@@ -60,7 +60,7 @@
       }
     },
 
-    "tab-content#home2":{
+    "tab-content.item#home2":{
       "children":["rich-text#home2"],
       "props":{
         "tabId": "eletronics"
