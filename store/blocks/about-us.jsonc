@@ -1,7 +1,80 @@
 {
     "store.custom#about-us":{
-      "blocks": ["flex-layout.row#about-us","tab-layout","iframe"]
+      "blocks": [
+        "flex-layout.row#about-us",
+        "tab-layout",
+        "tab-layout#home",
+        "iframe"
+      ]
     },  
+   
+    "tab-layout#home":{
+      "children":[
+        "tab-list#home",
+        "tab-content#home"
+      ]
+    },
+
+    "tab-list#home":{
+      "children":[
+        "tab-list#home1",
+        "tab-list#home2"
+      ]
+    },
+
+    "tab-content#home":{
+      "children":[
+        "tab-content#home1",
+        "tab-content#home2"
+      ]
+    },
+
+    "tab-list#home1":{
+      "props": {
+        "tabId": "majorAppliances",
+        "label": "Major Appliances",
+        "defaultActiveTab": true
+      }
+    },
+
+    "tab-list#home2":{
+      "props": {
+        "tabId": "eletronics",
+        "label": "Electronics",
+        "defaultActiveTab": true
+      }
+    },
+
+    "tab-content#home1":{
+      "children":["rich-text#home1"],
+      "props":{
+        "tabId": "majorAppliances"
+      }
+    },
+
+    "rich-text#home1":{
+      "props": {
+        "text": "Área do conteúdo da tab-list.item com  tabId = majorAppliances",
+        "textPosition": "CENTER",
+        "font": "t-heading-3"
+      }
+    },
+
+    "tab-content#home2":{
+      "children":["rich-text#home2"],
+      "props":{
+        "tabId": "eletronics"
+      }
+    },
+
+    "rich-text#home2":{
+      "props": {
+        "text": "Área do conteúdo da tab-list.item com  tabId = electronics",
+        "textPosition": "CENTER",
+        "font": "t-heading-3"
+      }
+    },
+      
 
     "tab-layout":{
       "children":[
@@ -70,8 +143,6 @@
         "font": "t-heading-3"
       }
     },
-    
-
 
     "flex-layout.row#about-us": {
       "children": [
