@@ -92,14 +92,14 @@
 
     "tab-list.item#1": {
       "props": {
-        "tabId": "majorAppliances",
+        "tabId": "majorAppliances2",
         "label": "Major Appliances",
         "defaultActiveTab": true
       }
     },
     "tab-list.item#2": {
       "props": {
-        "tabId": "electronics",
+        "tabId": "electronics2",
         "label": "Electronics"
       }
     },
@@ -117,7 +117,7 @@
         "rich-text#1"
       ],
       "props": {
-        "tabId": "majorAppliances"
+        "tabId": "majorAppliances2"
       }
     },
     "tab-content.item#2": {
@@ -125,7 +125,7 @@
         "rich-text#2"
       ],
       "props": {
-        "tabId": "electronics"
+        "tabId": "electronics2"
       }
     },
 
