@@ -30,9 +30,9 @@
     
     "header-row#notification": {
         "children": [
-          "rich-text#header",
-          "header-row#main",
-          "header-row#main-mobile"
+            "header-spacer",
+            "rich-text#header",
+            "header-spacer"
         ]
       },
 
