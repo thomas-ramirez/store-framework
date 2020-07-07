@@ -27,7 +27,10 @@
         }},
 
         "flex-layout.col#img":{
-            "children":["rich-text#header","image#menu"],
+            "children":[
+                "image#menu",
+                "rich-text#header"
+            ],
             "props":{
                 "paddingRight": 4,
                 "horizontalAlign": "right"
