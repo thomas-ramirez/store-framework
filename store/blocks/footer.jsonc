@@ -1,0 +1,58 @@
+{
+    "footer": {
+      "blocks": ["footer-layout.desktop"]
+    },
+    "footer-layout.desktop": {
+      "children": [
+        "flex-layout.row#footer-1-desktop"
+      ]
+    },
+
+    "flex-layout.row#footer-1-desktop": {
+        "children": [
+          "flex-layout.col#footer-left-desktop",
+          "flex-layout.col#footer-right-desktop"
+        ],
+        "props": {
+          "blockClass": "footer-row",
+          "paddingTop": 7,
+          "paddingBottom": 7
+        }
+      },
+
+      "flex-layout.col#footer-left-desktop": {
+        "children": [
+          "accepted-payment-methods"
+         
+        ]},
+
+        "accepted-payment-methods":{
+            "props":{
+                "paymentMethods": ["mastercard", "visa", "diners club"]
+            }
+
+        },
+
+        "flex-layout.col#footer-right-desktop":{
+            "children": [
+                "social-networks"
+              ]
+        },
+
+        "social-networks":{
+            "props": {
+                "socialNetworks": [
+                  { "url": "https://www.facebook.com/vtexcommerce/", "name": "Facebook" },
+                  { "url": "https://twitter.com/vtextruecloud?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor", "name": "Twitter" },
+                  { "url": "https://www.instagram.com/vtex.brasil/", "name": "Instagram" }
+                ]}
+        }
+
+
+
+
+
+
+
+
+  }
