@@ -28,7 +28,7 @@
 
         "flex-layout.col#img":{
             "children":[
-                "image#menu",
+                "image#menu", // teste não passou com isso aqui como segunda opção e só como primeira, fora que o aviso de erro afirma que eu não declarei ambos como childrens ao invés de falar que a ordem está errada.
                 "rich-text#header"
             ],
             "props":{
