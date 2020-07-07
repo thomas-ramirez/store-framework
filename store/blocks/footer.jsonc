@@ -22,9 +22,9 @@
 
       "flex-layout.col#footer-left-desktop": {
         "children": [
-          "accepted-payment-methods"
-         
-        ]},
+          "accepted-payment-methods"     
+        ]
+    },
 
         "accepted-payment-methods":{
             "props":{
